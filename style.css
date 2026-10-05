@@ -1,0 +1,1186 @@
+/* ============================================================
+   LEGACY FC — OFFICIAL WEEKLY BOARD
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+/* ============================================================
+   RESET
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: #f4f5f4;
+    color: #10282b;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* ============================================================
+   VARIABLES
+   ============================================================ */
+
+:root {
+    --dark: #062f35;
+    --dark-2: #073a40;
+    --green: #06483f;
+    --green-2: #0b594e;
+
+    --lime: #c8f43d;
+    --lime-dark: #a9d91f;
+
+    --white: #ffffff;
+    --off-white: #f4f5f4;
+    --light: #eef1ef;
+    --border: #d9dfdd;
+
+    --text: #122c2e;
+    --muted: #728083;
+
+    --red: #dc4a43;
+    --yellow: #e8bd28;
+
+    --max-width: 760px;
+}
+
+
+/* ============================================================
+   GENERAL
+   ============================================================ */
+
+.container {
+    width: min(100% - 32px, var(--max-width));
+    margin: 0 auto;
+}
+
+.content-section {
+    padding: 55px 0;
+}
+
+.section-heading {
+    margin-bottom: 28px;
+}
+
+.section-heading h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 38px;
+    line-height: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    color: var(--dark);
+}
+
+.section-heading p {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.sub-heading {
+    margin: 25px 0 14px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: var(--dark);
+    color: white;
+
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.header-inner {
+    width: min(100% - 32px, var(--max-width));
+    margin: 0 auto;
+
+    min-height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    flex-shrink: 0;
+}
+
+.brand-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    background: var(--lime);
+    color: var(--dark);
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+
+    border-radius: 50%;
+}
+
+.brand-name {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+
+    gap: 19px;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    white-space: nowrap;
+}
+
+.main-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.main-nav a {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: rgba(255,255,255,0.72);
+
+    transition: 0.2s ease;
+}
+
+.main-nav a:hover {
+    color: var(--lime);
+}
+
+
+/* ============================================================
+   HERO
+   ============================================================ */
+
+.hero-section {
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(200,244,61,0.13),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #052d33 0%,
+            #073b40 55%,
+            #06483f 100%
+        );
+
+    color: white;
+
+    padding: 70px 0 65px;
+
+    border-bottom: 5px solid var(--lime);
+}
+
+.matchday-label {
+    display: inline-block;
+
+    padding: 8px 13px;
+
+    border: 1px solid rgba(200,244,61,0.35);
+    border-radius: 999px;
+
+    color: var(--lime);
+
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    letter-spacing: 0.7px;
+}
+
+.hero-section h1 {
+    margin-top: 25px;
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(54px, 13vw, 94px);
+
+    line-height: 0.86;
+
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.hero-section h1 span {
+    color: var(--lime);
+}
+
+.hero-description {
+    max-width: 520px;
+
+    margin-top: 25px;
+
+    color: rgba(255,255,255,0.7);
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* ============================================================
+   TEAM SECTION
+   ============================================================ */
+
+.team-section {
+    background: #e8ece9;
+
+    padding: 45px 0;
+}
+
+.team-card {
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 14px 40px rgba(5,35,39,0.08);
+}
+
+.team-card-header {
+    padding: 25px 25px 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eyebrow {
+    display: block;
+
+    font-size: 10px;
+    font-weight: 800;
+
+    color: var(--green);
+
+    letter-spacing: 1.3px;
+}
+
+.team-card-header h2 {
+    margin-top: 3px;
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 38px;
+
+    line-height: 1;
+
+    font-weight: 800;
+
+    color: var(--dark);
+}
+
+
+/* ============================================================
+   TEAM STATS
+   ============================================================ */
+
+.team-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.stat {
+    padding: 18px 12px;
+
+    text-align: center;
+
+    border-right: 1px solid var(--border);
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.stat strong {
+    display: block;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 27px;
+    line-height: 1;
+
+    color: var(--dark);
+}
+
+.stat span {
+    display: block;
+
+    margin-top: 5px;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    color: var(--muted);
+
+    text-transform: uppercase;
+}
+
+
+/* ============================================================
+   TEAM SHEET
+   ============================================================ */
+
+.team-sheet {
+    padding: 25px;
+}
+
+.team-sheet-title {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 22px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: var(--dark);
+}
+
+.team-sheet-club {
+    margin-top: 3px;
+
+    font-size: 10px;
+    font-weight: 800;
+
+    color: var(--muted);
+
+    letter-spacing: 1px;
+}
+
+
+/* ============================================================
+   PITCH
+   ============================================================ */
+
+.pitch {
+    position: relative;
+
+    width: 100%;
+    max-width: 520px;
+
+    height: 530px;
+
+    margin: 25px auto 12px;
+
+    overflow: hidden;
+
+    border-radius: 13px;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,0.045) 50%,
+            transparent 50%
+        ),
+        repeating-linear-gradient(
+            0deg,
+            #09503f 0,
+            #09503f 54px,
+            #0b5946 54px,
+            #0b5946 108px
+        );
+
+    border: 4px solid rgba(255,255,255,0.7);
+
+    box-shadow:
+        inset 0 0 0 1px rgba(0,0,0,0.15),
+        0 12px 30px rgba(0,0,0,0.12);
+}
+
+
+/* Pitch halfway line */
+.pitch::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    top: 50%;
+
+    height: 2px;
+
+    background: rgba(255,255,255,0.75);
+}
+
+
+/* Centre circle */
+.pitch::after {
+    content: "";
+
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border: 2px solid rgba(255,255,255,0.75);
+
+    border-radius: 50%;
+}
+
+
+/* ============================================================
+   PLAYER ON PITCH
+   ============================================================ */
+
+.player-dot {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 5;
+
+    width: 76px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.player-avatar {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--lime);
+
+    color: var(--dark);
+
+    border: 3px solid white;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.28);
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.player-name {
+    margin-top: 5px;
+
+    padding: 4px 7px;
+
+    background: rgba(0,0,0,0.78);
+
+    color: white;
+
+    border-radius: 4px;
+
+    font-size: 9px;
+    font-weight: 800;
+
+    white-space: nowrap;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.2px;
+}
+
+.pitch-note {
+    text-align: center;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    font-style: italic;
+}
+
+
+/* ============================================================
+   SQUAD
+   ============================================================ */
+
+.squad-list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 8px;
+}
+
+.squad-card {
+    min-height: 62px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 10px 12px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 9px;
+}
+
+.squad-number {
+    width: 32px;
+    height: 32px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--dark);
+
+    color: var(--lime);
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.squad-info strong {
+    display: block;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 17px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: var(--dark);
+}
+
+.squad-info span {
+    display: block;
+
+    margin-top: 1px;
+
+    font-size: 10px;
+
+    color: var(--muted);
+}
+
+
+/* ============================================================
+   STAFF
+   ============================================================ */
+
+.staff-list {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+}
+
+.staff-card {
+    text-align: center;
+
+    padding: 20px 10px;
+
+    background: var(--dark);
+
+    border-radius: 10px;
+
+    color: white;
+}
+
+.staff-card strong {
+    display: block;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 19px;
+
+    text-transform: uppercase;
+}
+
+.staff-card span {
+    display: block;
+
+    margin-top: 3px;
+
+    color: var(--lime);
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+}
+
+
+/* ============================================================
+   MONTHLY HONOURS
+   ============================================================ */
+
+.honours-section {
+    background: white;
+}
+
+.honours-list {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 14px;
+}
+
+.honour-card {
+    position: relative;
+
+    min-height: 260px;
+
+    padding: 20px;
+
+    background: #f3f5f3;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+}
+
+.honour-card::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 5px;
+
+    background: var(--lime);
+
+    border-radius: 12px 0 0 12px;
+}
+
+.honour-code {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 29px;
+    font-weight: 800;
+
+    color: var(--green);
+}
+
+.honour-title {
+    margin-top: 5px;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 20px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: var(--dark);
+}
+
+.honour-reviewed {
+    margin-top: 5px;
+
+    font-size: 9px;
+
+    color: var(--muted);
+
+    text-transform: uppercase;
+}
+
+.honour-label {
+    margin-top: 25px;
+
+    font-size: 9px;
+
+    color: var(--muted);
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+}
+
+.honour-names {
+    margin-top: 8px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 6px;
+}
+
+.honour-names span {
+    padding: 5px 8px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 5px;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+.honour-winner {
+    margin-top: 13px;
+
+    padding: 8px 10px;
+
+    background: var(--dark);
+
+    color: var(--lime);
+
+    border-radius: 6px;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+}
+
+
+/* ============================================================
+   GOLDEN BOOT / PLAYMAKER
+   ============================================================ */
+
+.leaders-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 18px;
+}
+
+.leader-card {
+    padding: 25px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+}
+
+.leader-code {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--dark);
+
+    color: var(--lime);
+
+    border-radius: 7px;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.leader-card h3 {
+    margin-top: 16px;
+
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 25px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: var(--dark);
+}
+
+.reviewed {
+    margin-top: 3px;
+
+    color: var(--muted);
+
+    font-size: 9px;
+
+    text-transform: uppercase;
+}
+
+.leader-list {
+    margin-top: 20px;
+}
+
+.leader-row {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 9px 0;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.leader-row:last-child {
+    border-bottom: none;
+}
+
+.leader-player {
+    font-size: 12px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.leader-value {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    color: var(--green);
+}
+
+
+/* ============================================================
+   DISCIPLINE
+   ============================================================ */
+
+.discipline-section {
+    background: #e8ece9;
+}
+
+.discipline-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 12px;
+}
+
+.discipline-card {
+    padding: 18px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+}
+
+.discipline-title {
+    font-family: "Barlow Condensed", sans-serif;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: var(--dark);
+}
+
+.discipline-card p {
+    margin-top: 10px;
+
+    font-size: 11px;
+
+    color: var(--muted);
+}
+
+.discipline-player {
+    margin-top: 15px;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+}
+
+.discipline-reason {
+    margin-top: 3px;
+
+    font-size: 10px;
+
+    color: var(--muted);
+}
+
+.discipline-card.yellow {
+    border-top: 4px solid var(--yellow);
+}
+
+.discipline-card.red {
+    border-top: 4px solid var(--red);
+}
+
+.discipline-card.injured {
+    border-top: 4px solid var(--lime-dark);
+}
+
+.discipline-card.none {
+    border-top: 4px solid #cbd3d0;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.site-footer {
+    padding: 30px 0;
+
+    background: var(--dark);
+
+    color: rgba(255,255,255,0.75);
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.8px;
+}
+
+.site-footer strong {
+    color: white;
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 700px) {
+
+    .header-inner {
+        min-height: 62px;
+
+        display: block;
+
+        padding: 11px 0;
+    }
+
+    .brand {
+        margin-bottom: 10px;
+    }
+
+    .main-nav {
+        width: 100%;
+
+        gap: 18px;
+    }
+
+    .main-nav a {
+        font-size: 9px;
+    }
+
+
+    .hero-section {
+        padding: 52px 0 50px;
+    }
+
+    .hero-section h1 {
+        font-size: 60px;
+    }
+
+
+    .content-section {
+        padding: 42px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 33px;
+    }
+
+
+    .team-section {
+        padding: 25px 0;
+    }
+
+
+    .team-card-header {
+        padding: 20px;
+    }
+
+    .team-card-header h2 {
+        font-size: 32px;
+    }
+
+
+    .team-sheet {
+        padding: 18px;
+    }
+
+
+    .pitch {
+        height: 470px;
+
+        margin-top: 20px;
+    }
+
+
+    .player-avatar {
+        width: 44px;
+        height: 44px;
+
+        font-size: 15px;
+    }
+
+    .player-name {
+        font-size: 8px;
+
+        max-width: 95px;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+    .squad-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .staff-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .honours-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .leaders-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .discipline-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 430px) {
+
+    .container {
+        width: min(100% - 22px, var(--max-width));
+    }
+
+
+    .brand-name {
+        font-size: 19px;
+    }
+
+
+    .hero-section h1 {
+        font-size: 53px;
+    }
+
+
+    .hero-description {
+        font-size: 12px;
+    }
+
+
+    .team-stats .stat strong {
+        font-size: 23px;
+    }
+
+
+    .pitch {
+        height: 430px;
+    }
+
+
+    .discipline-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

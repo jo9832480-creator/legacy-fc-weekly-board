@@ -139,15 +139,14 @@ const weeklyData = {
                 "Joshua",
                 "Philip",
                 "Bros Tobi",
-                "Mazi"
+                "Mazi",
+               "David",
+               "Somto",
+               "Voltage",
+               "Nugwa"
             ],
 
-            winners: [
-                "David",
-                "Somto",
-                "Voltage",
-                "Nugwa"
-            ]
+            winners: []
 
         },
 

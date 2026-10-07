@@ -3,20 +3,14 @@
    WEEK 1 DATA
    ============================================================ */
 
-
 const weeklyData = {
 
-    /* ========================================================
-       WEEK
-    ======================================================== */
-
     week: "Week 1",
-
 
     /* ========================================================
        TEAM OF THE WEEK
        EXACTLY 4 PLAYERS
-    ======================================================== */
+       ======================================================== */
 
     teamOfTheWeek: [
 
@@ -54,179 +48,57 @@ const weeklyData = {
 
     ],
 
-
     /* ========================================================
        TEAM STATISTICS
-    ======================================================== */
+       ======================================================== */
 
     cleanSheets: 6,
-
     goalsScored: 14,
-
 
     /* ========================================================
        SQUAD
-    ======================================================== */
+       ======================================================== */
 
     squad: [
 
-        {
-            name: "JAMES",
-            position: "Defender"
-        },
+        { name: "JAMES", position: "Defender" },
+        { name: "ADETOLA", position: "Defender" },
+        { name: "GABRIEL", position: "Defender" },
+        { name: "ALATIC DC", position: "Defender" },
+        { name: "BABARICK", position: "Defender" },
+        { name: "BROS JACK", position: "Defender" },
 
-        {
-            name: "ADETOLA",
-            position: "Defender"
-        },
+        { name: "DAVID", position: "Midfielder" },
+        { name: "ABEL", position: "Midfielder", captain: true },
+        { name: "JOSHUA", position: "Midfielder" },
+        { name: "DREMMZ", position: "Midfielder" },
+        { name: "WINNER", position: "Midfielder" },
+        { name: "MOSHOOD", position: "Midfielder" },
+        { name: "BROS LUCKY", position: "Midfielder" },
+        { name: "PHILIP", position: "Midfielder" },
+        { name: "MAZI", position: "Midfielder" },
+        { name: "BROS TOBI", position: "Midfielder" },
+        { name: "ABDUL", position: "Midfielder" },
+        { name: "RAZAQ", position: "Midfielder" },
+        { name: "MILLS", position: "Midfielder" },
+        { name: "NUGWA", position: "Midfielder" },
+        { name: "VOLTAGE", position: "Midfielder" },
 
-        {
-            name: "GABRIEL",
-            position: "Defender"
-        },
-
-        {
-            name: "ALATIC DC",
-            position: "Defender"
-        },
-
-        {
-            name: "BABARICK",
-            position: "Defender"
-        },
-
-        {
-            name: "BROS JACK",
-            position: "Defender"
-        },
-
-        {
-            name: "DAVID",
-            position: "Midfielder"
-        },
-
-        {
-            name: "ABEL",
-            position: "Midfielder",
-            captain: true
-        },
-
-        {
-            name: "JOSHUA",
-            position: "Midfielder"
-        },
-
-        {
-            name: "DREMMZ",
-            position: "Midfielder"
-        },
-
-        {
-            name: "WINNER",
-            position: "Midfielder"
-        },
-
-        {
-            name: "MOSHOOD",
-            position: "Midfielder"
-        },
-
-        {
-            name: "BROS LUCKY",
-            position: "Midfielder"
-        },
-
-        {
-            name: "PHILIP",
-            position: "Midfielder"
-        },
-
-        {
-            name: "MAZI",
-            position: "Midfielder"
-        },
-
-        {
-            name: "BROS TOBI",
-            position: "Midfielder"
-        },
-
-        {
-            name: "ABDUL",
-            position: "Midfielder"
-        },
-
-        {
-            name: "RAZAQ",
-            position: "Midfielder"
-        },
-
-        {
-            name: "MILLS",
-            position: "Midfielder"
-        },
-
-        {
-            name: "NUGWA",
-            position: "Midfielder"
-        },
-
-        {
-            name: "VOLTAGE",
-            position: "Midfielder"
-        },
-
-        {
-            name: "SAMUEL",
-            position: "Attacker"
-        },
-
-        {
-            name: "SIRMIKE",
-            position: "Attacker"
-        },
-
-        {
-            name: "SHARPMAN",
-            position: "Attacker"
-        },
-
-        {
-            name: "BALLO JR",
-            position: "Attacker"
-        },
-
-        {
-            name: "BROS CASH",
-            position: "Attacker"
-        },
-
-        {
-            name: "PEDRO",
-            position: "Attacker"
-        },
-
-        {
-            name: "ELVIS",
-            position: "Attacker"
-        },
-
-        {
-            name: "SOMTO",
-            position: "Attacker"
-        },
-
-        {
-            name: "VETIGO",
-            position: "Attacker"
-        }
+        { name: "SAMUEL", position: "Attacker" },
+        { name: "SIRMIKE", position: "Attacker" },
+        { name: "SHARPMAN", position: "Attacker" },
+        { name: "BALLO JR", position: "Attacker" },
+        { name: "BROS CASH", position: "Attacker" },
+        { name: "PEDRO", position: "Attacker" },
+        { name: "ELVIS", position: "Attacker" },
+        { name: "SOMTO", position: "Attacker" },
+        { name: "VETIGO", position: "Attacker" }
 
     ],
 
-
     /* ========================================================
        COACHING STAFF
-    ======================================================== */
+       ======================================================== */
 
     staff: [
 
@@ -247,17 +119,15 @@ const weeklyData = {
 
     ],
 
-
     /* ========================================================
        MONTHLY HONOURS
-    ======================================================== */
+       ======================================================== */
 
     honours: {
 
         month: "July 2026",
 
         description: "Awarded by the coaching panel",
-
 
         midfielder: {
 
@@ -281,7 +151,6 @@ const weeklyData = {
 
         },
 
-
         defender: {
 
             code: "DEF",
@@ -300,7 +169,6 @@ const weeklyData = {
             winners: []
 
         },
-
 
         attacker: {
 
@@ -323,11 +191,10 @@ const weeklyData = {
 
     },
 
-
     /* ========================================================
        GOAL SCORERS
        TOTAL = 14
-    ======================================================== */
+       ======================================================== */
 
     goals: [
 
@@ -368,10 +235,9 @@ const weeklyData = {
 
     ],
 
-
     /* ========================================================
        ASSISTS
-    ======================================================== */
+       ======================================================== */
 
     assists: [
 
@@ -402,17 +268,11 @@ const weeklyData = {
 
     ],
 
-
     /* ========================================================
        DISCIPLINE & FITNESS
-    ======================================================== */
+       ======================================================== */
 
     discipline: {
-
-
-        /* ----------------------------------------------------
-           YELLOW CARDS
-        ---------------------------------------------------- */
 
         yellowCards: [
 
@@ -448,11 +308,6 @@ const weeklyData = {
 
         ],
 
-
-        /* ----------------------------------------------------
-           RED CARDS
-        ---------------------------------------------------- */
-
         redCards: [
 
             {
@@ -462,17 +317,7 @@ const weeklyData = {
 
         ],
 
-
-        /* ----------------------------------------------------
-           SUSPENDED
-        ---------------------------------------------------- */
-
         suspended: [],
-
-
-        /* ----------------------------------------------------
-           INJURED
-        ---------------------------------------------------- */
 
         injured: [
 
@@ -515,21 +360,274 @@ function renderTeamStats() {
     const goalsScored =
         document.getElementById("goalsScored");
 
-
     if (cleanSheets) {
-
         cleanSheets.textContent =
             weeklyData.cleanSheets;
-
     }
-
 
     if (goalsScored) {
-
         goalsScored.textContent =
             weeklyData.goalsScored;
+    }
+
+}
+
+
+/* ============================================================
+   PLAYER POSITION STORAGE
+   ============================================================ */
+
+function getSavedPlayerPositions() {
+
+    const storageKey =
+        `legacyFC_${weeklyData.week}_positions`;
+
+    try {
+
+        const saved =
+            localStorage.getItem(storageKey);
+
+        return saved
+            ? JSON.parse(saved)
+            : null;
+
+    } catch (error) {
+
+        return null;
 
     }
+
+}
+
+
+function savePlayerPositions() {
+
+    const storageKey =
+        `legacyFC_${weeklyData.week}_positions`;
+
+    try {
+
+        localStorage.setItem(
+            storageKey,
+            JSON.stringify(
+                weeklyData.teamOfTheWeek
+                    .slice(0, 4)
+                    .map(player => ({
+                        name: player.name,
+                        x: player.x,
+                        y: player.y
+                    }))
+            )
+        );
+
+    } catch (error) {
+
+        /* Storage unavailable.
+           The drag feature still works. */
+
+    }
+
+}
+
+
+function loadPlayerPositions() {
+
+    const saved =
+        getSavedPlayerPositions();
+
+    if (!saved) return;
+
+    saved.forEach(savedPlayer => {
+
+        const player =
+            weeklyData.teamOfTheWeek.find(
+                item =>
+                    item.name === savedPlayer.name
+            );
+
+        if (!player) return;
+
+        if (
+            typeof savedPlayer.x === "number" &&
+            typeof savedPlayer.y === "number"
+        ) {
+
+            player.x = savedPlayer.x;
+            player.y = savedPlayer.y;
+
+        }
+
+    });
+
+}
+
+
+/* ============================================================
+   DRAG PLAYER
+   ============================================================ */
+
+function makePlayerDraggable(
+    playerDot,
+    player,
+    pitch
+) {
+
+    let dragging = false;
+
+    playerDot.style.touchAction = "none";
+    playerDot.style.cursor = "grab";
+
+    playerDot.addEventListener(
+        "pointerdown",
+        function (event) {
+
+            event.preventDefault();
+
+            dragging = true;
+
+            playerDot.style.cursor = "grabbing";
+            playerDot.style.zIndex = "100";
+
+            try {
+                playerDot.setPointerCapture(
+                    event.pointerId
+                );
+            } catch (error) {
+                /* Ignore if pointer capture
+                   is unavailable. */
+            }
+
+            updatePlayerPosition(
+                event,
+                player,
+                playerDot,
+                pitch
+            );
+
+        }
+    );
+
+
+    playerDot.addEventListener(
+        "pointermove",
+        function (event) {
+
+            if (!dragging) return;
+
+            event.preventDefault();
+
+            updatePlayerPosition(
+                event,
+                player,
+                playerDot,
+                pitch
+            );
+
+        }
+    );
+
+
+    function stopDragging(event) {
+
+        if (!dragging) return;
+
+        dragging = false;
+
+        playerDot.style.cursor = "grab";
+        playerDot.style.zIndex = "10";
+
+        try {
+            playerDot.releasePointerCapture(
+                event.pointerId
+            );
+        } catch (error) {
+            /* Ignore if pointer capture
+               is unavailable. */
+        }
+
+        savePlayerPositions();
+
+    }
+
+
+    playerDot.addEventListener(
+        "pointerup",
+        stopDragging
+    );
+
+    playerDot.addEventListener(
+        "pointercancel",
+        stopDragging
+    );
+
+    playerDot.addEventListener(
+        "lostpointercapture",
+        function () {
+
+            if (!dragging) return;
+
+            dragging = false;
+
+            playerDot.style.cursor = "grab";
+            playerDot.style.zIndex = "10";
+
+            savePlayerPositions();
+
+        }
+    );
+
+}
+
+
+/* ============================================================
+   UPDATE PLAYER POSITION
+   ============================================================ */
+
+function updatePlayerPosition(
+    event,
+    player,
+    playerDot,
+    pitch
+) {
+
+    const rect =
+        pitch.getBoundingClientRect();
+
+    if (
+        rect.width <= 0 ||
+        rect.height <= 0
+    ) {
+        return;
+    }
+
+    let x =
+        ((event.clientX - rect.left) /
+            rect.width) * 100;
+
+    let y =
+        ((event.clientY - rect.top) /
+            rect.height) * 100;
+
+
+    /*
+       Keep the player inside the pitch.
+       The limits prevent the player from
+       disappearing outside the pitch.
+    */
+
+    x = Math.max(7, Math.min(93, x));
+    y = Math.max(7, Math.min(93, y));
+
+
+    player.x = x;
+    player.y = y;
+
+
+    playerDot.style.left =
+        `${x}%`;
+
+    playerDot.style.top =
+        `${y}%`;
 
 }
 
@@ -543,22 +641,25 @@ function renderPitch() {
     const pitch =
         document.getElementById("pitch");
 
-
     if (!pitch) return;
-
 
     pitch.innerHTML = "";
 
+    /*
+       Load previously saved positions
+       for this week.
+    */
+
+    loadPlayerPositions();
 
     /*
        IMPORTANT:
-       Only the first FOUR players are displayed.
+       Exactly FOUR players are displayed.
     */
 
     weeklyData.teamOfTheWeek
         .slice(0, 4)
         .forEach(player => {
-
 
             const playerDot =
                 document.createElement("div");
@@ -604,6 +705,17 @@ function renderPitch() {
 
             pitch.appendChild(playerDot);
 
+
+            /*
+               ENABLE REAL MOUSE + TOUCH DRAGGING
+            */
+
+            makePlayerDraggable(
+                playerDot,
+                player,
+                pitch
+            );
+
         });
 
 }
@@ -618,73 +730,65 @@ function renderSquad() {
     const squadList =
         document.getElementById("squadList");
 
-
     if (!squadList) return;
-
 
     squadList.innerHTML = "";
 
+    weeklyData.squad.forEach(
+        (player, index) => {
 
-    weeklyData.squad.forEach((player, index) => {
+            const card =
+                document.createElement("div");
 
-
-        const card =
-            document.createElement("div");
-
-        card.className =
-            "squad-card";
-
-
-        /* PLAYER NUMBER */
-
-        const number =
-            document.createElement("div");
-
-        number.className =
-            "squad-number";
-
-        number.textContent =
-            index + 1;
+            card.className =
+                "squad-card";
 
 
-        /* PLAYER INFORMATION */
+            const number =
+                document.createElement("div");
 
-        const info =
-            document.createElement("div");
+            number.className =
+                "squad-number";
 
-        info.className =
-            "squad-info";
-
-
-        const playerName =
-            document.createElement("strong");
-
-        playerName.textContent =
-            player.captain
-                ? `${player.name} (C)`
-                : player.name;
+            number.textContent =
+                index + 1;
 
 
-        const playerPosition =
-            document.createElement("span");
+            const info =
+                document.createElement("div");
 
-        playerPosition.textContent =
-            player.position;
-
-
-        info.appendChild(playerName);
-
-        info.appendChild(playerPosition);
+            info.className =
+                "squad-info";
 
 
-        card.appendChild(number);
+            const playerName =
+                document.createElement("strong");
 
-        card.appendChild(info);
+            playerName.textContent =
+                player.captain
+                    ? `${player.name} (C)`
+                    : player.name;
 
 
-        squadList.appendChild(card);
+            const playerPosition =
+                document.createElement("span");
 
-    });
+            playerPosition.textContent =
+                player.position;
+
+
+            info.appendChild(playerName);
+
+            info.appendChild(playerPosition);
+
+            card.appendChild(number);
+
+            card.appendChild(info);
+
+            squadList.appendChild(card);
+
+        }
+    );
 
 }
 
@@ -698,15 +802,11 @@ function renderStaff() {
     const staffList =
         document.getElementById("staffList");
 
-
     if (!staffList) return;
-
 
     staffList.innerHTML = "";
 
-
     weeklyData.staff.forEach(person => {
-
 
         const card =
             document.createElement("div");
@@ -733,7 +833,6 @@ function renderStaff() {
 
         card.appendChild(role);
 
-
         staffList.appendChild(card);
 
     });
@@ -750,9 +849,7 @@ function renderHonours() {
     const honoursList =
         document.getElementById("honoursList");
 
-
     if (!honoursList) return;
-
 
     honoursList.innerHTML = "";
 
@@ -770,15 +867,12 @@ function renderHonours() {
 
     categories.forEach(category => {
 
-
         const card =
             document.createElement("div");
 
         card.className =
             "honour-card";
 
-
-        /* CODE */
 
         const code =
             document.createElement("div");
@@ -790,8 +884,6 @@ function renderHonours() {
             category.code;
 
 
-        /* TITLE */
-
         const title =
             document.createElement("div");
 
@@ -801,8 +893,6 @@ function renderHonours() {
         title.textContent =
             category.title;
 
-
-        /* REVIEWED */
 
         const reviewed =
             document.createElement("div");
@@ -814,8 +904,6 @@ function renderHonours() {
             "Reviewed";
 
 
-        /* CONTENDER LABEL */
-
         const label =
             document.createElement("div");
 
@@ -826,8 +914,6 @@ function renderHonours() {
             "Contenders";
 
 
-        /* CONTENDERS */
-
         const names =
             document.createElement("div");
 
@@ -835,20 +921,20 @@ function renderHonours() {
             "honour-names";
 
 
-        category.contenders.forEach(playerName => {
+        category.contenders.forEach(
+            playerName => {
 
-            const name =
-                document.createElement("span");
+                const name =
+                    document.createElement("span");
 
-            name.textContent =
-                playerName;
+                name.textContent =
+                    playerName;
 
-            names.appendChild(name);
+                names.appendChild(name);
 
-        });
+            }
+        );
 
-
-        /* WINNER */
 
         const winner =
             document.createElement("div");
@@ -882,7 +968,6 @@ function renderHonours() {
 
         card.appendChild(winner);
 
-
         honoursList.appendChild(card);
 
     });
@@ -900,7 +985,6 @@ function renderLeaders() {
         "goalsList",
         weeklyData.goals
     );
-
 
     renderLeaderList(
         "assistsList",
@@ -922,14 +1006,10 @@ function renderLeaderList(
     const container =
         document.getElementById(elementId);
 
-
     if (!container) return;
-
 
     container.innerHTML = "";
 
-
-    /* CONTENDERS LABEL */
 
     const contenders =
         document.createElement("div");
@@ -940,14 +1020,12 @@ function renderLeaderList(
     contenders.textContent =
         "Contenders";
 
+    container.appendChild(
+        contenders
+    );
 
-    container.appendChild(contenders);
-
-
-    /* PLAYER LIST */
 
     players.forEach(player => {
-
 
         const row =
             document.createElement("div");
@@ -980,7 +1058,6 @@ function renderLeaderList(
 
         row.appendChild(value);
 
-
         container.appendChild(row);
 
     });
@@ -995,22 +1072,19 @@ function renderLeaderList(
 function renderDiscipline() {
 
     const disciplineList =
-        document.getElementById("disciplineList");
-
+        document.getElementById(
+            "disciplineList"
+        );
 
     if (!disciplineList) return;
-
 
     disciplineList.innerHTML = "";
 
 
-    /* ========================================================
-       YELLOW CARDS
-    ======================================================== */
+    /* YELLOW CARDS */
 
     weeklyData.discipline.yellowCards
         .forEach(cardData => {
-
 
             const card =
                 document.createElement("div");
@@ -1055,19 +1129,15 @@ function renderDiscipline() {
 
             card.appendChild(reason);
 
-
             disciplineList.appendChild(card);
 
         });
 
 
-    /* ========================================================
-       RED CARDS
-    ======================================================== */
+    /* RED CARDS */
 
     weeklyData.discipline.redCards
         .forEach(cardData => {
-
 
             const card =
                 document.createElement("div");
@@ -1112,15 +1182,12 @@ function renderDiscipline() {
 
             card.appendChild(reason);
 
-
             disciplineList.appendChild(card);
 
         });
 
 
-    /* ========================================================
-       SUSPENDED
-    ======================================================== */
+    /* SUSPENDED */
 
     if (
         weeklyData.discipline.suspended.length === 0
@@ -1157,19 +1224,15 @@ function renderDiscipline() {
 
         card.appendChild(player);
 
-
         disciplineList.appendChild(card);
 
     }
 
 
-    /* ========================================================
-       INJURED
-    ======================================================== */
+    /* INJURED */
 
     weeklyData.discipline.injured
         .forEach(injuredPlayer => {
-
 
             const card =
                 document.createElement("div");
@@ -1225,7 +1288,6 @@ function renderDiscipline() {
             card.appendChild(duration);
 
             card.appendChild(type);
-
 
             disciplineList.appendChild(card);
 

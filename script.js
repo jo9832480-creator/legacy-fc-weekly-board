@@ -1,45 +1,31 @@
-// ============================================================
-// LEGACY FC - WEEKLY FOOTBALL BOARD
-// ============================================================
+/* ============================================================
+   LEGACY FC — OFFICIAL WEEKLY BOARD
+   WEEK 1 DATA
+   ============================================================ */
 
-
-// ------------------------------------------------------------
-// WEEKLY DATA
-// Update this section every week.
-// ------------------------------------------------------------
 
 const weeklyData = {
 
-    week: "Week 5",
+    /* ========================================================
+       WEEK
+    ======================================================== */
 
-    formation: "4-A-SIDE",
-
-    cleanSheets: 11,
-
-    goalsScored: 11,
+    week: "Week 1",
 
 
-    // --------------------------------------------------------
-    // TEAM OF THE WEEK
-    // EXACTLY 4 PLAYERS
-    // --------------------------------------------------------
+    /* ========================================================
+       TEAM OF THE WEEK
+       EXACTLY 4 PLAYERS
+    ======================================================== */
 
     teamOfTheWeek: [
-
-        {
-            number: 1,
-            position: "GK",
-            name: "VOLTAGE",
-            x: 50,
-            y: 84
-        },
 
         {
             number: 5,
             position: "DEF",
             name: "JOSHUA",
             x: 50,
-            y: 62
+            y: 68
         },
 
         {
@@ -47,7 +33,15 @@ const weeklyData = {
             position: "MID",
             name: "SOMTO",
             x: 50,
-            y: 40
+            y: 50
+        },
+
+        {
+            number: 10,
+            position: "MID",
+            name: "WINNER",
+            x: 50,
+            y: 32
         },
 
         {
@@ -55,15 +49,24 @@ const weeklyData = {
             position: "ATT",
             name: "SIR MIKE",
             x: 50,
-            y: 18
+            y: 14
         }
 
     ],
 
 
-    // --------------------------------------------------------
-    // SQUAD
-    // --------------------------------------------------------
+    /* ========================================================
+       TEAM STATISTICS
+    ======================================================== */
+
+    cleanSheets: 6,
+
+    goalsScored: 14,
+
+
+    /* ========================================================
+       SQUAD
+    ======================================================== */
 
     squad: [
 
@@ -96,7 +99,6 @@ const weeklyData = {
             name: "BROS JACK",
             position: "Defender"
         },
-
 
         {
             name: "DAVID",
@@ -174,7 +176,6 @@ const weeklyData = {
             position: "Midfielder"
         },
 
-
         {
             name: "SAMUEL",
             position: "Attacker"
@@ -223,9 +224,9 @@ const weeklyData = {
     ],
 
 
-    // --------------------------------------------------------
-    // COACHING STAFF
-    // --------------------------------------------------------
+    /* ========================================================
+       COACHING STAFF
+    ======================================================== */
 
     staff: [
 
@@ -247,37 +248,45 @@ const weeklyData = {
     ],
 
 
-    // --------------------------------------------------------
-    // MONTHLY HONOURS
-    // --------------------------------------------------------
+    /* ========================================================
+       MONTHLY HONOURS
+    ======================================================== */
 
-    honours: [
+    honours: {
 
-        {
+        month: "July 2026",
+
+        description: "Awarded by the coaching panel",
+
+
+        midfielder: {
+
             code: "MID",
+
             title: "Midfielder of the Month",
-            reviewed: true,
 
             contenders: [
-                "Winner",
                 "Joshua",
                 "Philip",
                 "Bros Tobi",
-                "Mazi",
+                "Mazi"
+            ],
+
+            winners: [
                 "David",
                 "Somto",
                 "Voltage",
                 "Nugwa"
-            ],
+            ]
 
-            winners: []
         },
 
 
-        {
+        defender: {
+
             code: "DEF",
+
             title: "Defender of the Month",
-            reviewed: true,
 
             contenders: [
                 "Alatic DC",
@@ -289,13 +298,15 @@ const weeklyData = {
             ],
 
             winners: []
+
         },
 
 
-        {
+        attacker: {
+
             code: "ATT",
+
             title: "Attacker of the Month",
-            reviewed: true,
 
             contenders: [
                 "Sir Mike",
@@ -307,133 +318,70 @@ const weeklyData = {
             ],
 
             winners: []
+
         }
 
-    ],
+    },
 
 
-    // --------------------------------------------------------
-    // GOLDEN BOOT
-    // --------------------------------------------------------
+    /* ========================================================
+       GOAL SCORERS
+       TOTAL = 14
+    ======================================================== */
 
     goals: [
 
         {
-            name: "Sir Mike",
-            value: 13
-        },
-
-        {
-            name: "Samuel",
-            value: 6
-        },
-
-        {
-            name: "Mazi",
+            name: "Somto",
             value: 5
         },
 
         {
-            name: "Ballo",
-            value: 4
-        },
-
-        {
-            name: "Sharpman",
-            value: 2
-        },
-
-        {
-            name: "Bros Lucky",
-            value: 2
-        },
-
-        {
             name: "Winner",
-            value: ""
+            value: 3
         },
 
         {
-            name: "Dremmz",
+            name: "Sir Mike",
             value: 2
         },
 
         {
             name: "Joshua",
-            value: 2
-        },
-
-        {
-            name: "Somto",
-            value: 2
-        },
-
-        {
-            name: "Adetola",
             value: 1
         },
 
         {
-            name: "Abdul",
+            name: "Samuel",
             value: 1
         },
 
         {
-            name: "Pedro",
+            name: "Mazi",
             value: 1
         },
 
         {
-            name: "Babarick",
-            value: 1
-        },
-
-        {
-            name: "Gabriel",
-            value: 1
-        },
-
-        {
-            name: "Philip",
-            value: 1
-        },
-
-        {
-            name: "Banker",
+            name: "Vetigo",
             value: 1
         }
 
     ],
 
 
-    // --------------------------------------------------------
-    // ASSISTS / PLAYMAKER
-    // --------------------------------------------------------
+    /* ========================================================
+       ASSISTS
+    ======================================================== */
 
     assists: [
 
         {
-            name: "Winner",
-            value: 9
-        },
-
-        {
-            name: "Joshua",
-            value: 5
-        },
-
-        {
-            name: "Ballo",
-            value: 4
-        },
-
-        {
-            name: "Sharpman",
+            name: "Voltage",
             value: 3
         },
 
         {
-            name: "Philip",
+            name: "Joshua",
             value: 3
         },
 
@@ -443,80 +391,94 @@ const weeklyData = {
         },
 
         {
-            name: "Mazi",
+            name: "Ballo",
             value: 1
         },
 
         {
-            name: "Nugwa",
-            value: 1
-        },
-
-        {
-            name: "Pedro",
-            value: 1
-        },
-
-        {
-            name: "Voltage",
+            name: "Vetigo",
             value: 1
         }
 
     ],
 
 
-    // --------------------------------------------------------
-    // DISCIPLINE & FITNESS
-    // --------------------------------------------------------
+    /* ========================================================
+       DISCIPLINE & FITNESS
+    ======================================================== */
 
     discipline: {
+
+
+        /* ----------------------------------------------------
+           YELLOW CARDS
+        ---------------------------------------------------- */
 
         yellowCards: [
 
             {
-                name: "Gabriel",
-                reason: "Handball"
+                name: "Mazi",
+                reason: "Foul Play"
             },
 
             {
                 name: "Bros Lucky",
                 reason: "Foul Play"
+            },
+
+            {
+                name: "Prince",
+                reason: "Foul Play"
+            },
+
+            {
+                name: "Chidera",
+                reason: "Foul Play"
+            },
+
+            {
+                name: "Somto",
+                reason: "Bad Behavior"
+            },
+
+            {
+                name: "Sanni",
+                reason: "Bad Behavior"
             }
 
         ],
 
+
+        /* ----------------------------------------------------
+           RED CARDS
+        ---------------------------------------------------- */
 
         redCards: [
 
             {
-                name: "Mazi",
-                reason: "serious foul play"
-            },
-
-            {
-                name: "Mazi Pitch Invasion",
-                reason: "5k"
+                name: "Samuel",
+                reason: "Serious Foul Play"
             }
 
         ],
 
 
-        suspended: [
+        /* ----------------------------------------------------
+           SUSPENDED
+        ---------------------------------------------------- */
 
-            {
-                name: "Nil",
-                reason: "Nil",
-                details: "Nil"
-            }
+        suspended: [],
 
-        ],
 
+        /* ----------------------------------------------------
+           INJURED
+        ---------------------------------------------------- */
 
         injured: [
 
             {
                 name: "Abel",
-                duration: "1 week",
+                duration: "1 month",
                 type: "Knee injury"
             }
 
@@ -527,24 +489,23 @@ const weeklyData = {
 };
 
 
-// ============================================================
-// RENDER WEEK
-// ============================================================
+/* ============================================================
+   WEEK LABEL
+   ============================================================ */
 
 function renderWeek() {
 
-    const weekLabel = document.getElementById("weekLabel");
+    const element = document.getElementById("weekLabel");
 
-    if (!weekLabel) return;
+    if (!element) return;
 
-    weekLabel.textContent =
-        `⚽ Matchday Report — ${weeklyData.week}`;
+    element.textContent = weeklyData.week;
 }
 
 
-// ============================================================
-// RENDER TEAM STATS
-// ============================================================
+/* ============================================================
+   TEAM STATISTICS
+   ============================================================ */
 
 function renderTeamStats() {
 
@@ -573,63 +534,38 @@ function renderTeamStats() {
 }
 
 
-// ============================================================
-// RENDER TEAM OF THE WEEK PITCH
-// ============================================================
+/* ============================================================
+   TEAM OF THE WEEK / PITCH
+   ============================================================ */
 
 function renderPitch() {
 
     const pitch =
         document.getElementById("pitch");
 
+
     if (!pitch) return;
 
 
-    // Remove old player dots.
-
-    const oldPlayers =
-        pitch.querySelectorAll(".player-dot");
-
-    oldPlayers.forEach(player => {
-
-        player.remove();
-
-    });
+    pitch.innerHTML = "";
 
 
-    // Make sure the pitch itself is positioned correctly.
-
-    if (getComputedStyle(pitch).position === "static") {
-
-        pitch.style.position = "relative";
-
-    }
-
-
-    // --------------------------------------------------------
-    // EXACTLY 4 PLAYERS
-    // --------------------------------------------------------
+    /*
+       IMPORTANT:
+       Only the first FOUR players are displayed.
+    */
 
     weeklyData.teamOfTheWeek
         .slice(0, 4)
-        .forEach((player, index) => {
+        .forEach(player => {
 
 
             const playerDot =
                 document.createElement("div");
 
-
             playerDot.className =
                 "player-dot";
 
-
-            // Store which player this is.
-
-            playerDot.dataset.playerIndex =
-                index;
-
-
-            // Position the player.
 
             playerDot.style.left =
                 `${player.x}%`;
@@ -638,565 +574,325 @@ function renderPitch() {
                 `${player.y}%`;
 
 
-            // IMPORTANT FOR MOBILE DRAGGING
-            // Prevent the browser from treating
-            // the touch as normal page scrolling.
+            /* PLAYER NUMBER */
 
-            playerDot.style.touchAction =
-                "none";
+            const avatar =
+                document.createElement("div");
 
-            playerDot.style.userSelect =
-                "none";
+            avatar.className =
+                "player-avatar";
 
-            playerDot.style.webkitUserSelect =
-                "none";
-
-            playerDot.style.cursor =
-                "grab";
+            avatar.textContent =
+                player.number;
 
 
-            playerDot.innerHTML = `
+            /* PLAYER NAME */
 
-                <div class="player-number">
-                    ${player.number}
-                </div>
+            const name =
+                document.createElement("div");
 
-                <div class="player-position">
-                    ${player.position}
-                </div>
+            name.className =
+                "player-name";
 
-                <div class="player-name">
-                    ${player.name}
-                </div>
+            name.textContent =
+                player.name;
 
-            `;
 
+            playerDot.appendChild(avatar);
+
+            playerDot.appendChild(name);
 
             pitch.appendChild(playerDot);
-
-
-            // Attach the real drag functionality.
-
-            enablePlayerDrag(
-                playerDot,
-                pitch,
-                player,
-                index
-            );
 
         });
 
 }
 
 
-// ============================================================
-// REAL PLAYER DRAG FUNCTION
-// Works with:
-// - iPhone
-// - Android
-// - Mouse
-// - Trackpad
-// - Touchscreen
-// ============================================================
-
-function enablePlayerDrag(
-    playerDot,
-    pitch,
-    player,
-    playerIndex
-) {
-
-
-    let dragging = false;
-
-    let pointerId = null;
-
-    let offsetX = 0;
-
-    let offsetY = 0;
-
-
-    // --------------------------------------------------------
-    // WHEN USER TOUCHES / CLICKS PLAYER
-    // --------------------------------------------------------
-
-    playerDot.addEventListener(
-        "pointerdown",
-        function (event) {
-
-            // Only use the primary pointer.
-
-            if (!event.isPrimary) return;
-
-
-            dragging = true;
-
-            pointerId =
-                event.pointerId;
-
-
-            playerDot.style.cursor =
-                "grabbing";
-
-
-            playerDot.classList.add(
-                "dragging"
-            );
-
-
-            // Capture the pointer.
-            //
-            // This means the player keeps receiving
-            // pointer movements even if the finger/mouse
-            // moves outside the player.
-
-            try {
-
-                playerDot.setPointerCapture(
-                    event.pointerId
-                );
-
-            } catch (error) {
-
-                // Ignore capture errors.
-
-            }
-
-
-            // Get current sizes.
-
-            const pitchRect =
-                pitch.getBoundingClientRect();
-
-            const playerRect =
-                playerDot.getBoundingClientRect();
-
-
-            // Calculate where inside the player
-            // the user grabbed it.
-
-            offsetX =
-                event.clientX -
-                (
-                    playerRect.left +
-                    playerRect.width / 2
-                );
-
-
-            offsetY =
-                event.clientY -
-                (
-                    playerRect.top +
-                    playerRect.height / 2
-                );
-
-
-            // Prevent accidental scrolling,
-            // selecting text, etc.
-
-            event.preventDefault();
-
-        },
-        {
-            passive: false
-        }
-    );
-
-
-    // --------------------------------------------------------
-    // WHEN PLAYER IS MOVED
-    // --------------------------------------------------------
-
-    playerDot.addEventListener(
-        "pointermove",
-        function (event) {
-
-            if (!dragging) return;
-
-            if (
-                pointerId !==
-                event.pointerId
-            ) {
-                return;
-            }
-
-
-            const pitchRect =
-                pitch.getBoundingClientRect();
-
-
-            const playerRect =
-                playerDot.getBoundingClientRect();
-
-
-            // Calculate the player's center.
-
-            let newX =
-                event.clientX -
-                pitchRect.left -
-                offsetX;
-
-
-            let newY =
-                event.clientY -
-                pitchRect.top -
-                offsetY;
-
-
-            // ------------------------------------------------
-            // KEEP PLAYER INSIDE THE PITCH
-            // ------------------------------------------------
-
-            const halfWidth =
-                playerRect.width / 2;
-
-            const halfHeight =
-                playerRect.height / 2;
-
-
-            newX =
-                Math.max(
-                    halfWidth,
-                    Math.min(
-                        pitchRect.width -
-                        halfWidth,
-                        newX
-                    )
-                );
-
-
-            newY =
-                Math.max(
-                    halfHeight,
-                    Math.min(
-                        pitchRect.height -
-                        halfHeight,
-                        newY
-                    )
-                );
-
-
-            // Convert pixels to percentages.
-
-            const xPercent =
-                (
-                    newX /
-                    pitchRect.width
-                ) * 100;
-
-
-            const yPercent =
-                (
-                    newY /
-                    pitchRect.height
-                ) * 100;
-
-
-            // Move the player.
-
-            playerDot.style.left =
-                `${xPercent}%`;
-
-            playerDot.style.top =
-                `${yPercent}%`;
-
-
-            // Save the new position
-            // in the current page data.
-
-            player.x =
-                xPercent;
-
-            player.y =
-                yPercent;
-
-
-            event.preventDefault();
-
-        },
-        {
-            passive: false
-        }
-    );
-
-
-    // --------------------------------------------------------
-    // WHEN USER RELEASES PLAYER
-    // --------------------------------------------------------
-
-    playerDot.addEventListener(
-        "pointerup",
-        function (event) {
-
-            if (
-                pointerId !==
-                event.pointerId
-            ) {
-                return;
-            }
-
-
-            stopDragging();
-
-        }
-    );
-
-
-    // --------------------------------------------------------
-    // IF BROWSER CANCELS THE TOUCH
-    // --------------------------------------------------------
-
-    playerDot.addEventListener(
-        "pointercancel",
-        function (event) {
-
-            if (
-                pointerId !==
-                event.pointerId
-            ) {
-                return;
-            }
-
-
-            stopDragging();
-
-        }
-    );
-
-
-    // --------------------------------------------------------
-    // FINISH DRAGGING
-    // --------------------------------------------------------
-
-    function stopDragging() {
-
-        dragging = false;
-
-        playerDot.style.cursor =
-            "grab";
-
-        playerDot.classList.remove(
-            "dragging"
-        );
-
-
-        if (
-            pointerId !== null &&
-            playerDot.hasPointerCapture &&
-            playerDot.hasPointerCapture(pointerId)
-        ) {
-
-            try {
-
-                playerDot.releasePointerCapture(
-                    pointerId
-                );
-
-            } catch (error) {
-
-                // Ignore release errors.
-
-            }
-
-        }
-
-
-        pointerId = null;
-
-    }
-
-}
-
-
-// ============================================================
-// RENDER SQUAD
-// ============================================================
+/* ============================================================
+   SQUAD
+   ============================================================ */
 
 function renderSquad() {
 
-    const container =
+    const squadList =
         document.getElementById("squadList");
 
-    if (!container) return;
+
+    if (!squadList) return;
 
 
-    container.innerHTML = "";
+    squadList.innerHTML = "";
 
 
-    weeklyData.squad.forEach(
-        (player, index) => {
+    weeklyData.squad.forEach((player, index) => {
 
-            const card =
-                document.createElement("div");
-
-
-            card.className =
-                "squad-card";
-
-
-            card.innerHTML = `
-
-                <div class="squad-number">
-                    ${String(index + 1).padStart(2, "0")}
-                </div>
-
-                <div class="squad-info">
-
-                    <div class="squad-name">
-
-                        ${player.name}
-
-                        ${
-                            player.captain
-                                ? ` <span class="captain-badge">C</span>`
-                                : ""
-                        }
-
-                    </div>
-
-                    <div class="squad-position">
-                        ${player.position}
-                    </div>
-
-                </div>
-
-            `;
-
-
-            container.appendChild(card);
-
-        }
-    );
-
-}
-
-
-// ============================================================
-// RENDER STAFF
-// ============================================================
-
-function renderStaff() {
-
-    const container =
-        document.getElementById("staffList");
-
-    if (!container) return;
-
-
-    container.innerHTML = "";
-
-
-    weeklyData.staff.forEach(member => {
 
         const card =
             document.createElement("div");
 
+        card.className =
+            "squad-card";
+
+
+        /* PLAYER NUMBER */
+
+        const number =
+            document.createElement("div");
+
+        number.className =
+            "squad-number";
+
+        number.textContent =
+            index + 1;
+
+
+        /* PLAYER INFORMATION */
+
+        const info =
+            document.createElement("div");
+
+        info.className =
+            "squad-info";
+
+
+        const playerName =
+            document.createElement("strong");
+
+        playerName.textContent =
+            player.captain
+                ? `${player.name} (C)`
+                : player.name;
+
+
+        const playerPosition =
+            document.createElement("span");
+
+        playerPosition.textContent =
+            player.position;
+
+
+        info.appendChild(playerName);
+
+        info.appendChild(playerPosition);
+
+
+        card.appendChild(number);
+
+        card.appendChild(info);
+
+
+        squadList.appendChild(card);
+
+    });
+
+}
+
+
+/* ============================================================
+   COACHING STAFF
+   ============================================================ */
+
+function renderStaff() {
+
+    const staffList =
+        document.getElementById("staffList");
+
+
+    if (!staffList) return;
+
+
+    staffList.innerHTML = "";
+
+
+    weeklyData.staff.forEach(person => {
+
+
+        const card =
+            document.createElement("div");
 
         card.className =
             "staff-card";
 
 
-        card.innerHTML = `
+        const name =
+            document.createElement("strong");
 
-            <div class="staff-name">
-                ${member.name}
-            </div>
-
-            <div class="staff-role">
-                ${member.role}
-            </div>
-
-        `;
+        name.textContent =
+            person.name;
 
 
-        container.appendChild(card);
+        const role =
+            document.createElement("span");
+
+        role.textContent =
+            person.role;
+
+
+        card.appendChild(name);
+
+        card.appendChild(role);
+
+
+        staffList.appendChild(card);
 
     });
 
 }
 
 
-// ============================================================
-// RENDER MONTHLY HONOURS
-// ============================================================
+/* ============================================================
+   MONTHLY HONOURS
+   ============================================================ */
 
 function renderHonours() {
 
-    const container =
+    const honoursList =
         document.getElementById("honoursList");
 
-    if (!container) return;
+
+    if (!honoursList) return;
 
 
-    container.innerHTML = "";
+    honoursList.innerHTML = "";
 
 
-    weeklyData.honours.forEach(honour => {
+    const categories = [
+
+        weeklyData.honours.midfielder,
+
+        weeklyData.honours.defender,
+
+        weeklyData.honours.attacker
+
+    ];
+
+
+    categories.forEach(category => {
+
 
         const card =
             document.createElement("div");
-
 
         card.className =
             "honour-card";
 
 
-        const winnerHTML =
-            honour.winners &&
-            honour.winners.length > 0
+        /* CODE */
 
-                ? `
+        const code =
+            document.createElement("div");
 
-                    <div class="honour-winner-label">
-                        Winner
-                    </div>
+        code.className =
+            "honour-code";
 
-                    <div class="honour-winner">
-                        ${honour.winners.join(" · ")}
-                    </div>
-
-                `
-
-                : "";
+        code.textContent =
+            category.code;
 
 
-        card.innerHTML = `
+        /* TITLE */
 
-            <div class="honour-code">
-                ${honour.code}
-            </div>
+        const title =
+            document.createElement("div");
 
-            <div class="honour-title">
-                ${honour.title}
-            </div>
+        title.className =
+            "honour-title";
 
-            <div class="honour-reviewed">
-                Reviewed
-            </div>
-
-            <div class="honour-label">
-                Contenders
-            </div>
-
-            <div class="honour-names">
-                ${honour.contenders.join(" · ")}
-            </div>
-
-            ${winnerHTML}
-
-        `;
+        title.textContent =
+            category.title;
 
 
-        container.appendChild(card);
+        /* REVIEWED */
+
+        const reviewed =
+            document.createElement("div");
+
+        reviewed.className =
+            "honour-reviewed";
+
+        reviewed.textContent =
+            "Reviewed";
+
+
+        /* CONTENDER LABEL */
+
+        const label =
+            document.createElement("div");
+
+        label.className =
+            "honour-label";
+
+        label.textContent =
+            "Contenders";
+
+
+        /* CONTENDERS */
+
+        const names =
+            document.createElement("div");
+
+        names.className =
+            "honour-names";
+
+
+        category.contenders.forEach(playerName => {
+
+            const name =
+                document.createElement("span");
+
+            name.textContent =
+                playerName;
+
+            names.appendChild(name);
+
+        });
+
+
+        /* WINNER */
+
+        const winner =
+            document.createElement("div");
+
+        winner.className =
+            "honour-winner";
+
+
+        if (category.winners.length > 0) {
+
+            winner.textContent =
+                `Winner — ${category.winners.join(", ")}`;
+
+        } else {
+
+            winner.textContent =
+                "Winner —";
+
+        }
+
+
+        card.appendChild(code);
+
+        card.appendChild(title);
+
+        card.appendChild(reviewed);
+
+        card.appendChild(label);
+
+        card.appendChild(names);
+
+        card.appendChild(winner);
+
+
+        honoursList.appendChild(card);
 
     });
 
 }
 
 
-// ============================================================
-// RENDER LEADERS
-// ============================================================
+/* ============================================================
+   GOALS & ASSISTS
+   ============================================================ */
 
 function renderLeaders() {
 
@@ -1214,9 +910,9 @@ function renderLeaders() {
 }
 
 
-// ============================================================
-// RENDER LEADER LIST
-// ============================================================
+/* ============================================================
+   LEADER LIST
+   ============================================================ */
 
 function renderLeaderList(
     elementId,
@@ -1226,39 +922,63 @@ function renderLeaderList(
     const container =
         document.getElementById(elementId);
 
+
     if (!container) return;
 
 
-    container.innerHTML = `
+    container.innerHTML = "";
 
-        <div class="leader-contenders">
-            Contenders
-        </div>
 
-    `;
+    /* CONTENDERS LABEL */
 
+    const contenders =
+        document.createElement("div");
+
+    contenders.className =
+        "reviewed";
+
+    contenders.textContent =
+        "Contenders";
+
+
+    container.appendChild(contenders);
+
+
+    /* PLAYER LIST */
 
     players.forEach(player => {
 
+
         const row =
             document.createElement("div");
-
 
         row.className =
             "leader-row";
 
 
-        row.innerHTML = `
+        const playerName =
+            document.createElement("span");
 
-            <span class="leader-player">
-                ${player.name}
-            </span>
+        playerName.className =
+            "leader-player";
 
-            <span class="leader-value">
-                ${player.value}
-            </span>
+        playerName.textContent =
+            player.name;
 
-        `;
+
+        const value =
+            document.createElement("strong");
+
+        value.className =
+            "leader-value";
+
+        value.textContent =
+            player.value;
+
+
+        row.appendChild(playerName);
+
+        row.appendChild(value);
 
 
         container.appendChild(row);
@@ -1268,184 +988,255 @@ function renderLeaderList(
 }
 
 
-// ============================================================
-// RENDER DISCIPLINE & FITNESS
-// ============================================================
+/* ============================================================
+   DISCIPLINE
+   ============================================================ */
 
 function renderDiscipline() {
 
-    const container =
-        document.getElementById(
-            "disciplineList"
-        );
-
-    if (!container) return;
+    const disciplineList =
+        document.getElementById("disciplineList");
 
 
-    container.innerHTML = "";
+    if (!disciplineList) return;
 
 
-    // --------------------------------------------------------
-    // YELLOW CARDS
-    // --------------------------------------------------------
+    disciplineList.innerHTML = "";
+
+
+    /* ========================================================
+       YELLOW CARDS
+    ======================================================== */
 
     weeklyData.discipline.yellowCards
-        .forEach(item => {
+        .forEach(cardData => {
+
 
             const card =
                 document.createElement("div");
-
 
             card.className =
                 "discipline-card yellow";
 
 
-            card.innerHTML = `
+            const title =
+                document.createElement("div");
 
-                <div class="discipline-title">
-                    Yellow Card
-                </div>
+            title.className =
+                "discipline-title";
 
-                <div class="discipline-name">
-                    ${item.name}
-                </div>
-
-                <div class="discipline-reason">
-                    Reason: ${item.reason}
-                </div>
-
-            `;
+            title.textContent =
+                "Yellow Card";
 
 
-            container.appendChild(card);
+            const player =
+                document.createElement("div");
+
+            player.className =
+                "discipline-player";
+
+            player.textContent =
+                cardData.name;
+
+
+            const reason =
+                document.createElement("div");
+
+            reason.className =
+                "discipline-reason";
+
+            reason.textContent =
+                `Reason: ${cardData.reason}`;
+
+
+            card.appendChild(title);
+
+            card.appendChild(player);
+
+            card.appendChild(reason);
+
+
+            disciplineList.appendChild(card);
 
         });
 
 
-    // --------------------------------------------------------
-    // RED CARDS
-    // --------------------------------------------------------
+    /* ========================================================
+       RED CARDS
+    ======================================================== */
 
     weeklyData.discipline.redCards
-        .forEach(item => {
+        .forEach(cardData => {
+
 
             const card =
                 document.createElement("div");
-
 
             card.className =
                 "discipline-card red";
 
 
-            card.innerHTML = `
-
-                <div class="discipline-title">
-                    Red Card
-                </div>
-
-                <div class="discipline-name">
-                    ${item.name}
-                </div>
-
-                <div class="discipline-reason">
-                    Reason: ${item.reason}
-                </div>
-
-            `;
-
-
-            container.appendChild(card);
-
-        });
-
-
-    // --------------------------------------------------------
-    // SUSPENDED
-    // --------------------------------------------------------
-
-    weeklyData.discipline.suspended
-        .forEach(item => {
-
-            const card =
+            const title =
                 document.createElement("div");
 
+            title.className =
+                "discipline-title";
 
-            card.className =
-                "discipline-card none";
-
-
-            card.innerHTML = `
-
-                <div class="discipline-title">
-                    Suspended
-                </div>
-
-                <div class="discipline-name">
-                    ${item.name}
-                </div>
-
-                <div class="discipline-reason">
-                    ${item.reason}
-                </div>
-
-                <div class="discipline-reason">
-                    ${item.details}
-                </div>
-
-            `;
+            title.textContent =
+                "Red Card";
 
 
-            container.appendChild(card);
+            const player =
+                document.createElement("div");
+
+            player.className =
+                "discipline-player";
+
+            player.textContent =
+                cardData.name;
+
+
+            const reason =
+                document.createElement("div");
+
+            reason.className =
+                "discipline-reason";
+
+            reason.textContent =
+                `Reason: ${cardData.reason}`;
+
+
+            card.appendChild(title);
+
+            card.appendChild(player);
+
+            card.appendChild(reason);
+
+
+            disciplineList.appendChild(card);
 
         });
 
 
-    // --------------------------------------------------------
-    // INJURED
-    // --------------------------------------------------------
+    /* ========================================================
+       SUSPENDED
+    ======================================================== */
+
+    if (
+        weeklyData.discipline.suspended.length === 0
+    ) {
+
+        const card =
+            document.createElement("div");
+
+        card.className =
+            "discipline-card none";
+
+
+        const title =
+            document.createElement("div");
+
+        title.className =
+            "discipline-title";
+
+        title.textContent =
+            "Suspended";
+
+
+        const player =
+            document.createElement("div");
+
+        player.className =
+            "discipline-player";
+
+        player.textContent =
+            "Nil Nil Nil";
+
+
+        card.appendChild(title);
+
+        card.appendChild(player);
+
+
+        disciplineList.appendChild(card);
+
+    }
+
+
+    /* ========================================================
+       INJURED
+    ======================================================== */
 
     weeklyData.discipline.injured
-        .forEach(item => {
+        .forEach(injuredPlayer => {
+
 
             const card =
                 document.createElement("div");
-
 
             card.className =
                 "discipline-card injured";
 
 
-            card.innerHTML = `
+            const title =
+                document.createElement("div");
 
-                <div class="discipline-title">
-                    Injured
-                </div>
+            title.className =
+                "discipline-title";
 
-                <div class="discipline-name">
-                    ${item.name}
-                </div>
-
-                <div class="discipline-reason">
-                    Duration: ${item.duration}
-                </div>
-
-                <div class="discipline-reason">
-                    Type: ${item.type}
-                </div>
-
-            `;
+            title.textContent =
+                "Injured";
 
 
-            container.appendChild(card);
+            const player =
+                document.createElement("div");
+
+            player.className =
+                "discipline-player";
+
+            player.textContent =
+                injuredPlayer.name;
+
+
+            const duration =
+                document.createElement("div");
+
+            duration.className =
+                "discipline-reason";
+
+            duration.textContent =
+                `Duration: ${injuredPlayer.duration}`;
+
+
+            const type =
+                document.createElement("div");
+
+            type.className =
+                "discipline-reason";
+
+            type.textContent =
+                `Type: ${injuredPlayer.type}`;
+
+
+            card.appendChild(title);
+
+            card.appendChild(player);
+
+            card.appendChild(duration);
+
+            card.appendChild(type);
+
+
+            disciplineList.appendChild(card);
 
         });
 
 }
 
 
-// ============================================================
-// INITIALIZE LEGACY FC
-// ============================================================
+/* ============================================================
+   INITIALIZE
+   ============================================================ */
 
 function initializeLegacyFC() {
 
@@ -1468,9 +1259,9 @@ function initializeLegacyFC() {
 }
 
 
-// ============================================================
-// START WEBSITE
-// ============================================================
+/* ============================================================
+   START
+   ============================================================ */
 
 document.addEventListener(
     "DOMContentLoaded",

@@ -136,7 +136,7 @@ const weeklyData = {
             title: "Midfielder of the Month",
 
             contenders: [
-               "Winner"
+               "Winner",
                "Joshua",
                 "Philip",
                 "Bros Tobi",

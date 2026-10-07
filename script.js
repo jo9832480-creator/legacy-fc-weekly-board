@@ -1,4 +1,4 @@
-/* ============================================================
+ /* ============================================================
    LEGACY FC — OFFICIAL WEEKLY BOARD
    WEEK 1 DATA
    ============================================================ */
@@ -136,7 +136,8 @@ const weeklyData = {
             title: "Midfielder of the Month",
 
             contenders: [
-                "Joshua",
+               "Winner"
+               "Joshua",
                 "Philip",
                 "Bros Tobi",
                 "Mazi",

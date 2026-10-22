@@ -5,7 +5,7 @@
 
 const weeklyData = {
 
-    week: "Week 1",
+    week: "Week 2",
 
     /* ========================================================
        TEAM OF THE WEEK
@@ -17,7 +17,7 @@ const weeklyData = {
         {
             number: 5,
             position: "DEF",
-            name: "JOSHUA",
+            name: "VOLTAGE",
             x: 50,
             y: 68
         },
@@ -33,7 +33,7 @@ const weeklyData = {
         {
             number: 10,
             position: "MID",
-            name: "WINNER",
+            name: "SAMUEL",
             x: 50,
             y: 32
         },
@@ -52,8 +52,8 @@ const weeklyData = {
        TEAM STATISTICS
        ======================================================== */
 
-    cleanSheets: 6,
-    goalsScored: 14,
+    cleanSheets: 9,
+    goalsScored: 24,
 
     /* ========================================================
        SQUAD
@@ -193,44 +193,44 @@ const weeklyData = {
 
     /* ========================================================
        GOAL SCORERS
-       TOTAL = 14
+       TOTAL = 24
        ======================================================== */
 
     goals: [
 
         {
             name: "Somto",
-            value: 5
+            value: 7
         },
 
         {
             name: "Winner",
-            value: 3
+            value: 4
         },
 
         {
             name: "Sir Mike",
-            value: 2
+            value: 3
         },
 
         {
             name: "Joshua",
-            value: 1
+            value: 2
         },
 
         {
             name: "Samuel",
-            value: 1
+            value: 3
         },
 
         {
             name: "Mazi",
-            value: 1
+            value: 2
         },
 
         {
             name: "Vetigo",
-            value: 1
+            value: 2
         }
 
     ],
@@ -243,12 +243,17 @@ const weeklyData = {
 
         {
             name: "Voltage",
-            value: 3
+            value: 5
         },
 
         {
             name: "Joshua",
             value: 3
+        },
+     
+        {
+            name: "Winner",
+            value: 1
         },
 
         {
@@ -258,7 +263,7 @@ const weeklyData = {
 
         {
             name: "Ballo",
-            value: 1
+            value: 2
         },
 
         {
@@ -282,8 +287,8 @@ const weeklyData = {
             },
 
             {
-                name: "Bros Lucky",
-                reason: "Foul Play"
+                name: "Ballo",
+                reason: "Aggressive Behaviour"
             },
 
             {
@@ -292,18 +297,13 @@ const weeklyData = {
             },
 
             {
-                name: "Chidera",
+                name: "Vetigo",
                 reason: "Foul Play"
             },
 
             {
-                name: "Somto",
-                reason: "Bad Behavior"
-            },
-
-            {
-                name: "Sanni",
-                reason: "Bad Behavior"
+                name: "Capable",
+                reason: "Foul Play"
             }
 
         ],
@@ -311,8 +311,8 @@ const weeklyData = {
         redCards: [
 
             {
-                name: "Samuel",
-                reason: "Serious Foul Play"
+                name: "Null",
+                reason: "Null"
             }
 
         ],
@@ -323,7 +323,7 @@ const weeklyData = {
 
             {
                 name: "Abel",
-                duration: "1 month",
+                duration: "5 month",
                 type: "Knee injury"
             }
 

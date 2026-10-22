@@ -53,7 +53,7 @@ const weeklyData = {
        ======================================================== */
 
     cleanSheets: 9,
-    goalsScored: 24,
+    goalsScored: 25,
 
     /* ========================================================
        SQUAD
@@ -193,7 +193,7 @@ const weeklyData = {
 
     /* ========================================================
        GOAL SCORERS
-       TOTAL = 24
+       TOTAL = 25
        ======================================================== */
 
     goals: [
@@ -214,13 +214,13 @@ const weeklyData = {
         },
 
         {
-            name: "Joshua",
-            value: 2
+            name: "Samuel",
+            value: 3
         },
 
         {
-            name: "Samuel",
-            value: 3
+            name: "Joshua",
+            value: 2
         },
 
         {
@@ -231,6 +231,11 @@ const weeklyData = {
         {
             name: "Vetigo",
             value: 2
+        },
+
+        {
+            name: "Voltage",
+            value: 1
         }
 
     ],
@@ -252,8 +257,8 @@ const weeklyData = {
         },
      
         {
-            name: "Winner",
-            value: 1
+            name: "Ballo",
+            value: 2
         },
 
         {
@@ -262,8 +267,8 @@ const weeklyData = {
         },
 
         {
-            name: "Ballo",
-            value: 2
+            name: "Winner",
+            value: 1
         },
 
         {

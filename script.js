@@ -5,7 +5,7 @@
 
 const weeklyData = {
 
-    week: "Week 2",
+    week: "Week 3",
 
     /* ========================================================
        TEAM OF THE WEEK
@@ -33,7 +33,7 @@ const weeklyData = {
         {
             number: 10,
             position: "MID",
-            name: "SAMUEL",
+            name: "JOSHUA",
             x: 50,
             y: 32
         },
@@ -200,17 +200,17 @@ const weeklyData = {
 
         {
             name: "Somto",
-            value: 7
+            value: 10
         },
 
         {
             name: "Winner",
-            value: 4
+            value: 5
         },
 
         {
             name: "Sir Mike",
-            value: 3
+            value: 4
         },
 
         {
@@ -220,7 +220,7 @@ const weeklyData = {
 
         {
             name: "Joshua",
-            value: 2
+            value: 3
         },
 
         {
@@ -235,6 +235,11 @@ const weeklyData = {
 
         {
             name: "Voltage",
+            value: 2
+        },
+     
+        {
+            name: "Sharpman",
             value: 1
         }
 
@@ -248,7 +253,7 @@ const weeklyData = {
 
         {
             name: "Voltage",
-            value: 5
+            value: 6
         },
 
         {
@@ -268,11 +273,16 @@ const weeklyData = {
 
         {
             name: "Winner",
-            value: 1
+            value: 2
         },
 
         {
             name: "Vetigo",
+            value: 1
+        },
+     
+        {
+            name: "Somto",
             value: 1
         }
 
@@ -287,7 +297,7 @@ const weeklyData = {
         yellowCards: [
 
             {
-                name: "Mazi",
+                name: "Bros lucky",
                 reason: "Foul Play"
             },
 
@@ -302,12 +312,17 @@ const weeklyData = {
             },
 
             {
-                name: "Vetigo",
+                name: "Joshua",
                 reason: "Foul Play"
             },
 
             {
-                name: "Capable",
+                name: "Voltage",
+                reason: "Foul Play"
+            },
+         
+            {
+                name: "AJ",
                 reason: "Foul Play"
             }
 
@@ -316,8 +331,8 @@ const weeklyData = {
         redCards: [
 
             {
-                name: "Null",
-                reason: "Null"
+                name: "Razaq",
+                reason: "Serious Foul Play"
             }
 
         ],

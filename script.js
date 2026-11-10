@@ -5,7 +5,7 @@
 
 const weeklyData = {
 
-    week: "Week 3",
+    week: "Week 4",
 
     /* ========================================================
        TEAM OF THE WEEK
@@ -17,7 +17,7 @@ const weeklyData = {
         {
             number: 5,
             position: "DEF",
-            name: "VOLTAGE",
+            name: "DAVID",
             x: 50,
             y: 68
         },
@@ -25,7 +25,7 @@ const weeklyData = {
         {
             number: 8,
             position: "MID",
-            name: "SOMTO",
+            name: "WINNER",
             x: 50,
             y: 50
         },
@@ -41,7 +41,7 @@ const weeklyData = {
         {
             number: 9,
             position: "ATT",
-            name: "SIR MIKE",
+            name: "SOMTO",
             x: 50,
             y: 14
         }
@@ -52,8 +52,8 @@ const weeklyData = {
        TEAM STATISTICS
        ======================================================== */
 
-    cleanSheets: 13,
-    goalsScored: 32,
+    cleanSheets: 20,
+    goalsScored: 43,
 
     /* ========================================================
        SQUAD
@@ -142,12 +142,11 @@ const weeklyData = {
                 "Bros Tobi",
                 "Mazi",
                "David",
-               "Somto",
                "Voltage",
                "Nugwa"
             ],
 
-            winners: []
+            winners: [JOSHUA]
 
         },
 
@@ -163,10 +162,11 @@ const weeklyData = {
                 "Adetola",
                 "Bros Jack",
                 "Gabriel",
+                "Voltage",
                 "Babarick"
             ],
 
-            winners: []
+            winners: [VOLTAGE]
 
         },
 
@@ -179,13 +179,14 @@ const weeklyData = {
             contenders: [
                 "Sir Mike",
                 "Sharpman",
+                "Somto",
                 "Samuel",
                 "Ballo",
                 "Pedro",
                 "Bros Cash"
             ],
 
-            winners: []
+            winners: [SOMTO]
 
         }
 
@@ -193,53 +194,58 @@ const weeklyData = {
 
     /* ========================================================
        GOAL SCORERS
-       TOTAL = 32
+       TOTAL = 43
        ======================================================== */
 
     goals: [
 
         {
-            name: "Somto",
-            value: 10
+            name: "SOMTO",
+            value: 12
         },
 
         {
-            name: "Winner",
-            value: 5
+            name: "WINNER",
+            value: 7
         },
 
         {
-            name: "Sir Mike",
+            name: "JOSHUA",
+            value: 6
+        },
+
+        {
+            name: "SIR MIKE",
             value: 4
         },
 
         {
-            name: "Samuel",
+            name: "DAVID",
+            value: 4
+        },
+
+        {
+            name: "SAMUEL",
             value: 3
         },
 
         {
-            name: "Joshua",
+            name: "MAZI",
             value: 3
         },
 
         {
-            name: "Mazi",
+            name: "VOLTAGE",
             value: 2
         },
 
         {
-            name: "Vetigo",
-            value: 2
-        },
-
-        {
-            name: "Voltage",
-            value: 2
+            name: "BALLO",
+            value: 1
         },
      
         {
-            name: "Sharpman",
+            name: "SHARPMAN",
             value: 1
         }
 
@@ -252,38 +258,48 @@ const weeklyData = {
     assists: [
 
         {
-            name: "Voltage",
-            value: 6
+            name: "VOLTAGE",
+            value: 7
         },
 
         {
-            name: "Joshua",
-            value: 3
+            name: "JOSHUA",
+            value: 4
         },
      
         {
-            name: "Ballo",
+            name: "BALLO",
             value: 2
         },
 
         {
-            name: "Samuel",
+            name: "SAMUEL",
             value: 2
         },
 
         {
-            name: "Winner",
+            name: "WINNER",
             value: 2
         },
 
         {
-            name: "Vetigo",
-            value: 1
+            name: "VETIGO",
+            value: 2
+        },
+
+        {
+            name: "SHARPMAN",
+            value: 2
+        },
+
+        {
+            name: "AO",
+            value: 2
         },
      
         {
-            name: "Somto",
-            value: 1
+            name: "SOMTO",
+            value: 2
         }
 
     ],
@@ -307,22 +323,12 @@ const weeklyData = {
             },
 
             {
-                name: "Prince",
-                reason: "Foul Play"
-            },
-
-            {
-                name: "Joshua",
-                reason: "Foul Play"
-            },
-
-            {
-                name: "Voltage",
+                name: "Vetigo",
                 reason: "Foul Play"
             },
          
             {
-                name: "AJ",
+                name: "Voltage",
                 reason: "Foul Play"
             }
 

@@ -145,7 +145,7 @@ const weeklyData = {
                "Nugwa"
             ],
 
-            winners: [JOSHUA]
+            winners: ["Joshua"]
 
         },
 
@@ -165,7 +165,7 @@ const weeklyData = {
                 "Babarick"
             ],
 
-            winners: [VOLTAGE]
+            winners: ["Voltage"]
 
         },
 
@@ -185,7 +185,7 @@ const weeklyData = {
                 "Bros Cash"
             ],
 
-            winners: [SOMTO]
+            winners: ["Somto"]
 
         }
 
@@ -292,7 +292,7 @@ const weeklyData = {
         },
 
         {
-            name: "AO",
+            name: "ADETOLA",
             value: 2
         },
      

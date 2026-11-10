@@ -52,7 +52,7 @@ const weeklyData = {
        TEAM STATISTICS
        ======================================================== */
 
-    cleanSheets: 20,
+    cleanSheets: 17,
     goalsScored: 43,
 
     /* ========================================================
@@ -65,7 +65,7 @@ const weeklyData = {
         { name: "ADETOLA", position: "Defender" },
         { name: "GABRIEL", position: "Defender" },
         { name: "ALATIC DC", position: "Defender" },
-        { name: "BABARICK", position: "Defender" },
+        { name: "VOLTAGE", position: "Defender" },
         { name: "BROS JACK", position: "Defender" },
 
         { name: "DAVID", position: "Midfielder" },
@@ -82,7 +82,6 @@ const weeklyData = {
         { name: "RAZAQ", position: "Midfielder" },
         { name: "MILLS", position: "Midfielder" },
         { name: "NUGWA", position: "Midfielder" },
-        { name: "VOLTAGE", position: "Midfielder" },
 
         { name: "SAMUEL", position: "Attacker" },
         { name: "SIRMIKE", position: "Attacker" },

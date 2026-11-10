@@ -141,7 +141,6 @@ const weeklyData = {
                 "Bros Tobi",
                 "Mazi",
                "David",
-               "Voltage",
                "Nugwa"
             ],
 
